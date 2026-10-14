@@ -35,7 +35,7 @@ The filters use events already included in the report. Dates outside the researc
 
 When you choose to publish, upload the HTML file to any static host, or use it as `index.html` on GitHub Pages. Publishing is separate from generating a local report. This repository does not enable a hosted site automatically.
 
-Source assignments are defined in [sources.json](skills/bend-weekend-event-list/references/sources.json). The shared [worker instructions](skills/bend-weekend-event-list/references/source-agent.md) and [report schema](skills/bend-weekend-event-list/references/report-schema.md) keep results consistent. Source calendar paths can change; research agents should follow current official links.
+Source assignments are defined in [sources.json](skills/bend-weekend-event-list/references/sources.json), including Cascades Theatre / Cascades Theatrical Company. Theatre agents check individual performance dates rather than expanding a production's date range into daily shows. The shared [worker instructions](skills/bend-weekend-event-list/references/source-agent.md) and [report schema](skills/bend-weekend-event-list/references/report-schema.md) keep results consistent. Source calendar paths can change; research agents should follow current official links.
 
 ## Validation
 
