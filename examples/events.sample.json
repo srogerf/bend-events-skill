@@ -1,0 +1,156 @@
+{
+  "sample": true,
+  "title": "Bend events \u2014 sample month",
+  "start_date": "2026-10-01",
+  "end_date": "2026-10-31",
+  "checked_at": "2026-10-14T15:00:00-07:00",
+  "timezone": "America/Los_Angeles",
+  "sources": [
+    {
+      "id": "sample-venue",
+      "name": "Fictional venue calendar",
+      "url": "https://example.org/calendar",
+      "status": "checked",
+      "checked_at": "2026-10-14T14:50:00-07:00",
+      "notes": "Fictional source for demonstrating the report."
+    },
+    {
+      "id": "sample-discovery",
+      "name": "Fictional community calendar",
+      "url": "https://example.org/community",
+      "status": "partial",
+      "checked_at": "2026-10-14T14:55:00-07:00",
+      "notes": "Demonstrates a coverage gap; event times could not all be confirmed."
+    }
+  ],
+  "events": [
+    {
+      "title": "Sample acoustic evening",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "doors": "18:30",
+      "end_time": "21:00",
+      "venue": "Fictional Pine Hall",
+      "city": "Bend",
+      "url": "https://example.org/acoustic-evening",
+      "price": "$15 sample admission",
+      "age_restriction": "All ages",
+      "status": "verified",
+      "notes": "Fictional event illustrating a complete listing.",
+      "source_ids": [
+        "sample-venue"
+      ],
+      "checked_at": "2026-10-14T14:50:00-07:00",
+      "categories": [
+        "music"
+      ],
+      "booking_status": "required",
+      "booking_url": "https://example.org/tickets",
+      "booking_deadline": "2026-10-15",
+      "booking_notes": "Fictional organizer requires reservations before the show."
+    },
+    {
+      "title": "Sample makers market",
+      "date": "2026-10-17",
+      "time": "10:00",
+      "doors": null,
+      "end_time": "14:00",
+      "venue": "Fictional River Square",
+      "city": "Bend",
+      "url": "https://example.org/makers-market",
+      "price": "Free entry (sample)",
+      "age_restriction": null,
+      "status": "conflict",
+      "notes": "Fictional calendars disagree about the closing time; confirm before visiting.",
+      "source_ids": [
+        "sample-venue",
+        "sample-discovery"
+      ],
+      "checked_at": "2026-10-14T14:55:00-07:00",
+      "categories": [
+        "markets",
+        "art"
+      ],
+      "booking_status": "not-required",
+      "booking_url": null,
+      "booking_deadline": null,
+      "booking_notes": "Fictional organizer permits walk-in visitors."
+    },
+    {
+      "title": "Sample neighborhood art walk",
+      "date": "2026-10-17",
+      "time": null,
+      "doors": null,
+      "end_time": null,
+      "venue": "Fictional Art Corner",
+      "city": "Bend",
+      "url": "https://example.org/art-walk",
+      "price": null,
+      "age_restriction": null,
+      "status": "unverified",
+      "notes": "Fictional listing with an unconfirmed start time.",
+      "source_ids": [
+        "sample-discovery"
+      ],
+      "checked_at": "2026-10-14T14:55:00-07:00",
+      "categories": [
+        "art",
+        "community"
+      ],
+      "booking_status": "unknown",
+      "booking_url": null,
+      "booking_deadline": null,
+      "booking_notes": "Booking details not yet confirmed."
+    },
+    {
+      "title": "Sample folk concert",
+      "date": "2026-10-17",
+      "time": "18:00",
+      "doors": "17:30",
+      "end_time": null,
+      "venue": "Fictional Juniper Stage",
+      "city": "Sisters",
+      "url": "https://example.org/folk-concert",
+      "price": "$20 sample admission",
+      "age_restriction": "All ages",
+      "status": "verified",
+      "notes": "Fictional nearby-town listing.",
+      "source_ids": [
+        "sample-venue"
+      ],
+      "checked_at": "2026-10-14T14:50:00-07:00",
+      "categories": [
+        "music"
+      ],
+      "booking_status": "recommended",
+      "booking_url": "https://example.org/tickets",
+      "booking_deadline": null,
+      "booking_notes": "Fictional organizer explicitly recommends reserving a seat."
+    },
+    {
+      "title": "Sample paid film screening",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "doors": null,
+      "end_time": null,
+      "venue": "Fictional Cedar Cinema",
+      "city": "Bend",
+      "url": "https://example.org/film-screening",
+      "price": "$12 sample ticket",
+      "age_restriction": "All ages",
+      "status": "verified",
+      "notes": "Fictional paid event demonstrating that ticket sales alone do not establish a need to book in advance.",
+      "source_ids": [
+        "sample-venue"
+      ],
+      "checked_at": "2026-10-14T14:50:00-07:00",
+      "categories": [
+        "film"
+      ],
+      "booking_status": "unknown",
+      "booking_url": "https://example.org/film-tickets",
+      "booking_deadline": null,
+      "booking_notes": "Tickets are offered; advance booking requirements have not been confirmed."
+    }
+  ]
+}

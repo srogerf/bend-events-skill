@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bend Events"
+  short_description: "Parallel Bend event research and portable HTML reports"
+  default_prompt: "Use $bend-weekend-event-list to find this weekend's Bend events and create a standalone HTML report."
